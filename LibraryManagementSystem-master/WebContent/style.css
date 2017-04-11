@@ -1,0 +1,8 @@
+label {
+    font-size:25px;
+     padding-right:60px;
+}
+
+td:nth-child(2) {
+    padding-right: 20px;
+}​

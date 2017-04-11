@@ -1,0 +1,57 @@
+Back end and Databases----
+Tables:
+
+1.Table to hold Librarian details.
+2.Table to hold User details.
+3.Table to hold book names, corresponding author names and years.
+4.Table to hold UserBookDetails like book issues, pending books.
+//id,user_id,book_id,issue_date
+
+//join the UserBookDetails(user_id) and userdetails(id);
+//-----Books table too---------
+
+//select allias.books_name,allias.user_name,------
+
+5.Table to hold Membership details like fees and dues.
+//id,user_id,fee_due
+
+//select allias.user_name----
+
+6.Updating by Librarian
+//update user book details, update membership details
+
+Services:
+
+/Login
+/LibrarianDetails
+/UserDetails
+/Books
+/UserBookDetails
+/MembershipDetails
+
+
+Front end---------
+
+Pages to display:
+
+landing.jsp page--Radhika
+Librarian Login page.-- Sandeep
+add user page.
+//home page.
+//addUser page.
+UserDetails page.--Radhika
+Books page.--
+maintainBookspage.
+BookDetails(issue and pending) page.--Sai
+MembershipDetails(fee and due) page.--Sai
+
+Functionality----------- convert all pages to jsp pages.
+
+landing.jsp with 2 Check Boxes.(FE)=DONE;
+Login(FE,BE,Database)=DONE;
+Registration page(FE,BE,Database)
+UserDetails(FE,BE,Database)=DONE;
+Books(FE,BE,Database)=DONE;
+UserBookDetails(FE,BE,Database)
+
+
